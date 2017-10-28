@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+html {
+  font-size: 62.5%;
+}
+@mixin fontsize($size: 24, $base: 10) {
+  font-size: $size + px;
+  font-size: ($size / $base) * 1rem;
+}
+$ja_font : "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+body{
+    background-color:#ffffff;
+    font-size:15px;
+    color:#2f2f2f;
+}
+header{
+    background-image: url("../images/background.jpg");
+    background-size:cover;
+    .cover{
+        text-align:center;
+        img{
+            margin:30px;
+        }
+    }
+}
+main{
+    .container{
+        width:100%;
+        max-width:1600px;
+    }
+    .intro{
+        text-align:center;
+        .page-title{
+            margin-top:40px;
+        }
+        p{
+            margin-top:40px;
+            margin-bottom:80px;
+            text-align:center;
+        }
+    }
+    .country-boxes{
+        .country-box{
+           .country-name{
+                margin:20px;
+                margin-bottom:180px;
+                
+            }
+            .slide-btn{
+                display:block;
+                margin:0 auto;
+            }
+        }
+        #morocco{
+            background-image: url("../images/morocco-top.jpg");
+            background-size:cover;
+        }
+        #morocco:hover{
+                background-blend-mode: overlay ;
+                background-color:rgba(250,124,146,.6);
+                background-size:cover;
+        }
+
+        #spain{
+            background-image: url("../images/spain-top.jpg");
+            background-size:cover;
+        }
+        #spain:hover{
+                background-blend-mode: overlay ;
+                background-color:rgba(110,196,219,.6);
+                background-size:cover;
+        }
+        #myanmar{
+            background-image: url("../images/myanmar-top.jpg");
+            background-size:cover;
+        }
+        #myanmar:hover{
+                background-blend-mode: overlay ;
+                background-color:rgba(242,189,69,.6);
+                background-size:cover;
+        }
+        #thai{
+            background-image: url("../images/thai-top.jpg");
+            background-size:cover;
+        }
+        #thai:hover{
+                background-blend-mode: overlay ;
+                background-color:rgba(102,171,140,.6);
+                background-size:cover;
+        }
+        #cambodia{
+            background-image: url("../images/cambodia-top.jpg");
+            background-size:cover;
+        }
+        #cambodia:hover{
+                background-blend-mode: overlay ;
+                background-color:rgba(77,107,161,.6); 
+                background-size:cover;
+        }
+    }//country-boxes
+    .slide-shoe{
+        display:none;
+    }
+    .about{
+        .page-title{
+            display:block;
+            margin:0 auto;
+            margin-top:50px;
+        }
+        .about-box{
+            width:100%;
+            display:inline-block;
+            text-align:center;
+            margin:40px 20px;
+            margin-bottom:80px;
+            #my-photo{
+                vertical-align:middle;
+                width:25%;
+            　　margin:30px 0px;
+            }
+            #about-text{
+                display:inline-block;
+                vertical-align:middle;
+                width:50%;    
+                text-align:center;
+                margin:30px 0px;
+            }
+        }
+    }
+}
+footer{
+    text-align:center;
+    background-color:#FEF7C0;
+    margin-bottom:0px;
+    padding:5px;
+    p{
+        margin-bottom:0px;
+    }
+}
+@media(max-width:768px){
+   main{    
+    .page-title{
+        width:80%;
+    }
+    .country-name{
+        width:80%;
+    }
+    .about{
+    .about-box{
+        display:block;
+        width:100%;
+        margin:40px 0px;
+      #my-photo{
+        display:block; 
+        margin:0 auto;
+        width:70%;
+        margin-bottom:20px;
+      }
+      #about-text{
+        display:block;
+        width:70%;
+        margin:0 auto;
+        
+      }
+     }
+    }
+   }
+}

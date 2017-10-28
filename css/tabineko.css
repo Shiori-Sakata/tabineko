@@ -1,0 +1,120 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #ffffff;
+  font-size: 15px;
+  color: #2f2f2f; }
+
+header {
+  background-image: url("../images/background.jpg");
+  background-size: cover; }
+  header .cover {
+    text-align: center; }
+    header .cover img {
+      margin: 30px; }
+
+main .container {
+  width: 100%;
+  max-width: 1600px; }
+main .intro {
+  text-align: center; }
+  main .intro .page-title {
+    margin-top: 40px; }
+  main .intro p {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    text-align: center; }
+main .country-boxes .country-box .country-name {
+  margin: 20px;
+  margin-bottom: 180px; }
+main .country-boxes .country-box .slide-btn {
+  display: block;
+  margin: 0 auto; }
+main .country-boxes #morocco {
+  background-image: url("../images/morocco-top.jpg");
+  background-size: cover; }
+main .country-boxes #morocco:hover {
+  background-blend-mode: overlay;
+  background-color: rgba(250, 124, 146, 0.6);
+  background-size: cover; }
+main .country-boxes #spain {
+  background-image: url("../images/spain-top.jpg");
+  background-size: cover; }
+main .country-boxes #spain:hover {
+  background-blend-mode: overlay;
+  background-color: rgba(110, 196, 219, 0.6);
+  background-size: cover; }
+main .country-boxes #myanmar {
+  background-image: url("../images/myanmar-top.jpg");
+  background-size: cover; }
+main .country-boxes #myanmar:hover {
+  background-blend-mode: overlay;
+  background-color: rgba(242, 189, 69, 0.6);
+  background-size: cover; }
+main .country-boxes #thai {
+  background-image: url("../images/thai-top.jpg");
+  background-size: cover; }
+main .country-boxes #thai:hover {
+  background-blend-mode: overlay;
+  background-color: rgba(102, 171, 140, 0.6);
+  background-size: cover; }
+main .country-boxes #cambodia {
+  background-image: url("../images/cambodia-top.jpg");
+  background-size: cover; }
+main .country-boxes #cambodia:hover {
+  background-blend-mode: overlay;
+  background-color: rgba(77, 107, 161, 0.6);
+  background-size: cover; }
+main .slide-shoe {
+  display: none; }
+main .about .page-title {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px; }
+main .about .about-box {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin: 40px 20px;
+  margin-bottom: 80px; }
+  main .about .about-box #my-photo {
+    vertical-align: middle;
+    width: 25%;
+    　　margin: 30px 0px; }
+  main .about .about-box #about-text {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    text-align: center;
+    margin: 30px 0px; }
+
+footer {
+  text-align: center;
+  background-color: #FEF7C0;
+  margin-bottom: 0px;
+  padding: 5px; }
+  footer p {
+    margin-bottom: 0px; }
+
+@media (max-width: 768px) {
+  main .page-title {
+    width: 80%; }
+  main .country-name {
+    width: 80%; }
+  main .about .about-box {
+    display: block;
+    width: 100%;
+    margin: 40px 0px; }
+    main .about .about-box #my-photo {
+      display: block;
+      margin: 0 auto;
+      width: 70%;
+      margin-bottom: 20px; }
+    main .about .about-box #about-text {
+      display: block;
+      width: 70%;
+      margin: 0 auto; } }
+
+/*# sourceMappingURL=tabineko.css.map */
